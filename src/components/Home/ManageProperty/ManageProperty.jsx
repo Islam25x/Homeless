@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import "./ManageProperty.css";
+import img from "../../../assets/apartment_building.png"
 function ManageProperty() {
   return (
     <section id="ManageProperty">
@@ -48,7 +49,7 @@ function ManageProperty() {
               <Col lg={6} md={6}>
                 <div className="card-img2">
                   <img
-                    src="https://www.apartments.com/a/5a10d2/modules/homepagev2/content/images/widgets/widget_lease_100_online_1407.png"
+                    src={img}
                     className="img-fluid rounded-start"
                     alt=""
                   />

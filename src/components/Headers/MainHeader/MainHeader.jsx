@@ -24,8 +24,8 @@ const MainHeader = () => {
   };
 
   return (
-    <header>
-      <Navbar expand="lg" className="sticky-top">
+    <header className="sticky-top">  {/*to make the navbar always up*/}
+      <Navbar expand="lg" className="ms-auto">
         <Container fluid className="ms-1 me-1">
           <Navbar.Brand href="/">
             <img src="images/logo.png" alt="logo" />
