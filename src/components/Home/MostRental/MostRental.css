@@ -1,0 +1,28 @@
+#MostRental .MostRental-top .MostRental-des , #ManageProperty .ManageProperty-top .ManageProperty-des{
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+#MostRental .MostRental-body , #MostRental img , #MostRental .MostRental-body .card-body , #ManageProperty .card , #ManageProperty .card-img img , #ManageProperty .ManageProperty-body .card-body {
+    transform: rotateY(180deg);
+}
+#MostRental .MostRental-body .card-body , #ManageProperty .ManageProperty-body .card-body , #ManageProperty .ManageProperty-body .card-body2{
+    height: 100%;
+    width: 78%;
+    margin: 0 auto;
+    align-content: center;
+}
+#MostRental .MostRental-body .card-body a , #ManageProperty .ManageProperty-body .card-body a ,#ManageProperty .ManageProperty-body .card-body2 a{
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #0f8ac0;
+    font-size: 1.2rem;
+}
+#MostRental .MostRental-body .card-body a:hover ,#ManageProperty .ManageProperty-body .card-body a:hover , #ManageProperty .ManageProperty-body .card-body2 a:hover{
+    text-decoration: underline;
+}
+#MostRental img  , #ManageProperty img {
+    width: 100%;
+    height: 20rem;
+    border-radius: 0 !important;
+}

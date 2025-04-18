@@ -1,0 +1,21 @@
+footer{
+    border-top: 1px solid #cacaca;
+    background-color: #f9f9f9;
+    font-size: 1.15rem;
+    padding: 4em;
+}
+footer .left img{
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+footer p{
+    color: gray;
+    margin-top: -1rem;
+}
+footer .social-icons .btn{
+    border-radius: 50%;
+    margin-left: .2rem;
+}
+footer ul li:hover{
+    text-decoration: underline;
+}

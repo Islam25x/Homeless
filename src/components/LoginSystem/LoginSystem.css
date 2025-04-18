@@ -1,0 +1,42 @@
+#SignUp .sign-header h2 {
+    font-size: 30px;
+  }
+  #SignUp .sign-header a {
+    text-decoration: none;
+    color: #077eb1;
+  }
+  #SignUp form .form-top input , #Login form .form-top input{
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.4rem;
+    border: 1px solid rgb(207, 204, 204);
+  }
+  #SignUp select {
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    border-color: #22272c;
+    padding: 1rem 3rem 1rem 1rem;
+    color: black;
+  }
+  #SignUp select:focus {
+    background-color: white;
+    color: black;
+  }
+  #SignUp form .form-bottom p , #Login form .form-bottom p {
+      font-size: 14px;
+      color: rgb(103, 102, 102);
+  }
+  #SignUp form .form-bottom input {
+    height: 1.6rem;
+    width: 1.3rem;
+    margin-right: 0.5rem;
+  }
+  #SignUp button , #Login button {
+      width: 100%;
+      padding: .5rem;
+      background-color: #427b01;
+      border: none;
+      color: white;
+  }
+  

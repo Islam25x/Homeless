@@ -1,0 +1,103 @@
+.Body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-bottom: 1.5rem;
+}
+.landing {
+  background-image: url("/public/images/homepage.jpg");
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 65vh;
+  width: 100%;
+}
+.landing::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.landing h1 {
+  position: relative;
+  z-index: 2;
+  color: azure;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 16vh;
+  font-size: 64px;
+  line-height: 64px;
+  margin-bottom: 1.125rem;
+  font-family: "CostarBrownBold", sans-serif;
+}
+.landing p {
+  position: relative;
+  z-index: 2;
+  color: azure;
+  font-size: 20px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: "CostarBrownBold", sans-serif;
+}
+.landing .search-input{
+  position: relative;
+  z-index: 2;
+}
+.landing .search-input input {
+  margin-top: 35px;
+  font-size: 27px;
+  width: 500px;
+  height: max-content;
+  padding: 0 1.5rem .2rem;
+  line-height: 55px;
+  font-family: "CostarBrownBold", sans-serif;
+  border: none;
+}
+.landing .search-input input::placeholder{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.landing .search-input i {
+  position: absolute;
+  font-size: 1.2rem;
+  bottom: 1.2rem;
+  margin-left: -3rem;
+  color: #427b01;
+  cursor: pointer;
+}
+.landing .search-input i:hover{
+  color: #335f01;
+}
+.section {
+  margin-top: 6vh;
+  margin-left: 5vh;
+  width: 90%;
+  position: relative;
+  display: flex;
+}
+.Body h2 {
+  font-size: 35px;
+  line-height: 30px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.Body .btn1 {
+  position: relative;
+  margin-left: 35%;
+  margin-top: 60px;
+  font-size: 27px;
+  width: 500px;
+  height: max-content;
+  line-height: 40px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
